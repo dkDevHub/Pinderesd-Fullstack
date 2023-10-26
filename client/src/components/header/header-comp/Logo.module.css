@@ -1,0 +1,31 @@
+.logo_title{
+    flex-grow: 0;
+    display: flex;
+    justify-content: left;
+}
+
+.logo_title > span {
+    color: yellow;
+    margin-right: 5px;
+    margin-left: 10px;
+    user-select: none; 
+}
+
+.title_block{
+    height: var(--logo_size);
+    display: flex;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.title_block > span{
+    color: white;
+    font-size: 22px;
+    font-family: 'Source Code Pro', monospace;
+    user-select: none; 
+}
+
+.title300{
+    font-weight: 300;
+    font-size: 30px;
+}

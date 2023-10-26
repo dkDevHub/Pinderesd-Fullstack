@@ -1,0 +1,81 @@
+.create_form{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image_block{
+    width: 300px;
+    min-height: 300px;
+    margin-right: 30px;
+    background-color: var(--search_col);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.input{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--search_col);
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 40px;
+    outline: 0;
+    padding: 5px 20px 0;
+    width: 300px;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.input:nth-child(2){
+    height: 100px;
+    padding: 10px;
+}
+
+.input_file{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 0;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.image{
+    border-radius: 12px;
+    width: 300px;
+}
+
+.success {
+    width: 100vw;
+    margin-top: 47vh;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--purple);
+    font-size: 22px;
+} 
+
+
+

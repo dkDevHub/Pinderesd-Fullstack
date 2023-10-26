@@ -1,0 +1,28 @@
+.styles_container{
+    font-family: 'Merriweather Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+/* ======================== */
+/* for StyleButton */
+
+.styles{
+    all: unset;
+    margin: 2px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    transition: opacity 0.2s;
+    transition: background-color 0.2s;
+    user-select: none;
+    min-width: 50px;
+    text-align: center;
+}
+
+.styles:hover{
+    background-color: var(--background_col);
+    opacity: 1;
+    transform: scale(1.1);
+}

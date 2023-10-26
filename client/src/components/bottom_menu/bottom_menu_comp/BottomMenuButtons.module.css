@@ -1,0 +1,30 @@
+.btn_up, .filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 100px;
+    color: #3f3f46;
+}
+
+.trend_latest {
+    width: auto !important; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 100px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 10px 0 10px;
+}
+
+.trend_latest > div{
+    padding: 14px;
+    margin: 0 15px 0 15px;
+}
+
+.active_btn{
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+}

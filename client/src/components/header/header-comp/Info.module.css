@@ -1,0 +1,20 @@
+.info{
+    flex-grow: 0;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+}
+
+.info_button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info_button > div{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+}
+
+

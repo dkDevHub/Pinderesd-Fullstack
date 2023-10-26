@@ -1,0 +1,61 @@
+:root {
+    --logo_size: 30px;
+
+    --search_border_rasius: 25px;
+
+    --img_width: 250px;
+    --row_increment: 10px;
+    --img_border_radius: 16px;
+    --img_small: 18;
+    --img_medium: 25;
+    --img_large: 45;
+    
+    --background_col: rgb(27, 27, 30);
+    --search_col: rgb(39, 39, 42);
+
+    --purple: rgb(123, 31, 162);
+    --violet: rgb(103, 58, 183);
+    --pink: rgb(244, 143, 177);
+
+    background-color: var(--background_col);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    color: white;
+    overflow-x: hidden;
+}
+
+.clean_styles_a {
+    all: unset;
+    cursor: pointer;
+}
+
+/* ============================================== */
+/* Custom Scroll */
+/* ============================================== */
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    opacity: 0; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3f3f46;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 0px;
+}
+

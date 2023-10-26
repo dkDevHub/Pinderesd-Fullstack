@@ -1,0 +1,63 @@
+@keyframes background-pan {
+    from {
+        background-position: 0% center;
+    }
+    
+    to {
+        background-position: -200% center;
+    }
+}
+  
+@keyframes scale {
+    from, to {
+        transform: scale(0);
+    }
+    
+    50% {
+        transform: scale(1);
+    }
+}
+  
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+  
+.premium_bl > .premium {
+    display: inline-block;
+    position: relative;
+    background-color: rgba(39, 39, 42, 0.7);
+    padding: 16px 20px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.premium_bl > .premium:hover{
+    background-color: rgba(39, 39, 42, 1);
+    border-bottom: 2px solid var(--purple);
+}
+
+.premium_bl > .premium_hide{
+    background-color: rgba(39, 39, 42, 0);
+}
+  
+.premium_bl > .premium > .premium_text {
+    font-family: 'Merriweather Sans', sans-serif;
+
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(
+        to right,
+        var(--purple),
+        var(--violet),
+        var(--pink),
+        var(--purple)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}

@@ -1,0 +1,55 @@
+.image_block{
+    position: relative;
+}
+
+.image {
+    border-radius: var(--img_border_radius);
+    background-color: #3f3f46;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 70vh;
+    max-width: 80vw;
+    user-select: none;
+}
+
+.image.blur{
+    position: absolute;
+    left: 0;
+    -webkit-filter: blur(40px);
+    -moz-filter: blur(40px);
+    -o-filter: blur(40px);
+    -ms-filter: blur(40px);
+    filter: blur(40px);
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.stats{
+    margin-right: 10px;
+    font-family: 'Merriweather Sans', sans-serif;
+    user-select: none;
+}
+
+.stats > div{
+     margin-bottom: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.stats > div > span{
+    font-size: 30px;
+}
+
+.likes {
+    color: #ff0055;
+}
+
+.saves {
+    color: #FEDE00;
+}
+
+.views {
+    color: #bebebe;
+}
